@@ -2,7 +2,7 @@ JD=javadoc
 
 NAME=JavaSE7
 SOURCE=JSE7
-DOCLET=doclet
+DOCLET=bin
 PACKAGES=\
 java.applet\
 java.awt\

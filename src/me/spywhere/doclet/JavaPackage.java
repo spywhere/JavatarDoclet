@@ -20,7 +20,7 @@ public class JavaPackage {
 	ArrayList<JavaClass> exception = null;
 	
 	public JavaPackage(PackageDoc pkg) {
-		defaultPackage = pkg.isIncluded();
+//		defaultPackage = pkg.isIncluded();
 		for(ClassDoc cls:pkg.allClasses()){
 			if(cls.isPrivate()){
 				continue;
