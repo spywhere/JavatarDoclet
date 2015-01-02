@@ -37,25 +37,30 @@ public class Javatar extends AbstractDoclet {
 		}
 		return true;
 	}
-	
+
 	public static int optionLength(String option) {
 		if(option.equals("-name")){ return 2; }
 		return 0;
 	}
-	
-	
+
+
 	@Override
 	public Configuration configuration() {
 		return null;
 	}
-	
+
+	@Override
+	protected void generateProfileFiles() throws Exception {
+
+	}
+
 	@Override
 	protected void generateClassFiles(ClassDoc[] cs, ClassTree ct) {
-		
+
 	}
-	
+
 	@Override
 	protected void generatePackageFiles(ClassTree ct) throws Exception {
-		
+
 	}
 }
